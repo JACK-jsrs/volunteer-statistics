@@ -1,0 +1,24 @@
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# 上传/导出/临时数据（含学号等隐私，严禁上传到 GitHub）
+uploads/
+outputs/
+temp/
+
+# 本地测试残留
+.pip-tmp/
+get-pip.py
+
+# IDE
+.idea/
+.vscode/
+*.swp
